@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Tracing;
 
 namespace ServiceWithIoC
 {
@@ -15,6 +16,10 @@ namespace ServiceWithIoC
             var container = new UnityContainer();
             container.RegisterType<ITestRepository, TestRepository>(new HierarchicalLifetimeManager());
             config.DependencyResolver = new UnityResolver(container);
+
+            config.EnableSystemDiagnosticsTracing();
+
+            config.Services.Replace(typeof(ITraceWriter), new TraceWriter());
 
             // Web API routes
             config.MapHttpAttributeRoutes();

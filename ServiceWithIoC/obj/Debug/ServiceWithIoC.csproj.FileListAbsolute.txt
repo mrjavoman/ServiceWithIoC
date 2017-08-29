@@ -22,3 +22,6 @@ C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIo
 C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\bin\System.Web.Http.WebHost.xml
 C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\obj\Debug\ServiceWithIoC.dll
 C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\obj\Debug\ServiceWithIoC.pdb
+C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\bin\System.Web.Http.Tracing.dll
+C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\bin\System.Web.Http.Tracing.xml
+C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\obj\Debug\ServiceWithIoC.csprojResolveAssemblyReference.cache
