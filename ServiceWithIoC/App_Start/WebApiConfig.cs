@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Tracing;
 
 namespace ServiceWithIoC
@@ -18,6 +19,8 @@ namespace ServiceWithIoC
             config.DependencyResolver = new UnityResolver(container);
 
             config.EnableSystemDiagnosticsTracing();
+
+            config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
 
             config.Services.Replace(typeof(ITraceWriter), new TraceWriter());
 

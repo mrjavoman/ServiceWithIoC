@@ -1,3 +1,3 @@
 packages/
-ServiceWithIoC/bin/**
-ServiceWithIoC/obj/**
+ServiceWithIoC\bin
+ServiceWithIoC\obj

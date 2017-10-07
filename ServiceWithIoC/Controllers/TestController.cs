@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Tracing;
 using System.Diagnostics.Tracing;
+using ServiceWithIoC.Models;
 
 namespace ServiceWithIoC.Controllers
 {
@@ -17,6 +18,11 @@ namespace ServiceWithIoC.Controllers
         public TestController(ITestRepository repository)
         {
             this._repository = repository;
+        }
+
+        public HttpResponseMessage Options()
+        {
+            return new HttpResponseMessage(HttpStatusCode.OK);
         }
 
         public string Get()
@@ -36,6 +42,13 @@ namespace ServiceWithIoC.Controllers
             }
 
             return "Hello World!";
+        }
+
+        public HttpResponseMessage Post(FormContents form)
+        {
+            var attchments = form.Attachments;
+
+            return new HttpResponseMessage(HttpStatusCode.OK);
         }
     }
 }
