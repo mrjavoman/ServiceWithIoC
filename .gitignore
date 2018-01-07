@@ -1,3 +1,6 @@
+.vs/
 packages/
-ServiceWithIoC\bin
-ServiceWithIoC\obj
+ServiceWithIoC/bin/*
+ServiceWithIoC.Tests/bin/*
+ServiceWithIoC.Tests/obj/*
+ServiceWithIoC/obj/

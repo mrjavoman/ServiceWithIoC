@@ -20,3 +20,8 @@ C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIo
 C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC.Tests\obj\Debug\ServiceWithIoC.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC.Tests\obj\Debug\ServiceWithIoC.Tests.dll
 C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC.Tests\obj\Debug\ServiceWithIoC.Tests.pdb
+C:\Users\Xavi\Documents\Visual Studio 2017\Projects\ServiceWithIoC\ServiceWithIoC.Tests\bin\Debug\System.Web.Http.Tracing.dll
+C:\Users\Xavi\Documents\Visual Studio 2017\Projects\ServiceWithIoC\ServiceWithIoC.Tests\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\Xavi\Documents\Visual Studio 2017\Projects\ServiceWithIoC\ServiceWithIoC.Tests\bin\Debug\System.Web.Cors.dll
+C:\Users\Xavi\Documents\Visual Studio 2017\Projects\ServiceWithIoC\ServiceWithIoC.Tests\bin\Debug\System.Web.Http.Tracing.xml
+C:\Users\Xavi\Documents\Visual Studio 2017\Projects\ServiceWithIoC\ServiceWithIoC.Tests\bin\Debug\System.Web.Http.Cors.xml

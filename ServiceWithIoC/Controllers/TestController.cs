@@ -47,6 +47,8 @@ namespace ServiceWithIoC.Controllers
         public HttpResponseMessage Post(FormContents form)
         {
             var attchments = form.Attachments;
+            //LZString.decompressFromUTF16();
+            
 
             return new HttpResponseMessage(HttpStatusCode.OK);
         }

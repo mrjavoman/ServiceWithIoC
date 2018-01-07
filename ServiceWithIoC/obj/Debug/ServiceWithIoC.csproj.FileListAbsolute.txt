@@ -25,3 +25,6 @@ C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIo
 C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\bin\System.Web.Http.Tracing.dll
 C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\bin\System.Web.Http.Tracing.xml
 C:\Users\Xavi\documents\visual studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\obj\Debug\ServiceWithIoC.csprojResolveAssemblyReference.cache
+C:\Users\Xavi\Documents\Visual Studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\bin\System.Web.Cors.dll
+C:\Users\Xavi\Documents\Visual Studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\bin\System.Web.Http.Cors.dll
+C:\Users\Xavi\Documents\Visual Studio 2017\Projects\ServiceWithIoC\ServiceWithIoC\bin\System.Web.Http.Cors.xml
